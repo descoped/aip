@@ -22,7 +22,7 @@ publish-url = "https://test.pypi.org/legacy/"
 When publishing, uv will prompt for credentials if not provided:
 ```bash
 # You'll be prompted for password/token
-uv publish --index testpypi --username your_username
+uv publish --index testpypi --token your-token
 ```
 
 ## Building the Package
