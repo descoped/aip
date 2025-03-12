@@ -8,10 +8,11 @@ A flexible, composable library for constructing and transforming LLM prompts wit
 pip install aip
 ```
 
-### Build
+### Development Setup
 
 ```
 uv venv
+source .venv/bin/activate
 uv sync --group e
 pytest -s
 code .
@@ -206,6 +207,19 @@ prompt.add_processor(create_metadata_processor())
 prompt.prompt("Content")
 print(prompt.metadata)  # Contains processed_at
 ```
+
+## Contributing
+
+We welcome contributions to improve Generative AI Prompt extensions! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed information on:
+
+- Architecture overview
+- Core concepts
+- How to extend the library
+- Design patterns used
+- Best practices
+- Testing guidelines
+
+Please submit issues and pull requests following our guidelines.
 
 ## License
 
