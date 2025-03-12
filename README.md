@@ -5,7 +5,7 @@ A flexible, composable library for constructing and transforming LLM prompts wit
 ## Installation
 
 ```
-pip install aip
+pip install aipp
 ```
 
 ### Development Setup
@@ -33,7 +33,7 @@ Generative AI Prompt extensions helps you build complex prompts with:
 ## Quick Start
 
 ```python
-from aip import PromptBuilder
+from aipp import PromptBuilder
 
 # Simple example
 prompt = (
@@ -171,7 +171,7 @@ prompt = (
 Create your own processors:
 
 ```python
-from aip.processors.base import SimpleProcessor
+from aipp.processors.base import SimpleProcessor
 
 
 def create_custom_processor(options):

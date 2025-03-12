@@ -1,5 +1,5 @@
-from aip import PromptBuilder
-from aip.processors import (
+from aipp import PromptBuilder
+from aipp.processors import (
     create_chain_of_thought_processor,
     create_few_shot_processor,
     create_structured_output_processor,
