@@ -1,10 +1,10 @@
-# Contributing to Generative AI Prompt extensions
+# Contributing to Generative AI Prompt Processor
 
-This guide explains core concepts and patterns used in Generative AI Prompt extensions to help developers extend its functionality.
+This guide explains core concepts and patterns used in Generative AI Prompt Processor to help developers extend its functionality.
 
 ## Architecture Overview
 
-Generative AI Prompt extensions follows a composition-based architecture with these key components:
+Generative AI Prompt Processor follows a composition-based architecture with these key components:
 
 1. **PromptBuilder** - The main builder class with fluent interface
 2. **TextProcessor** - A protocol defining the processor interface
@@ -89,7 +89,7 @@ def create_highlighting_processor(color: str = "yellow") -> TextProcessor:
     return SimpleProcessor(transform, name="highlighting")
 ```
 
-### 2. Adding Builder Extensions
+### 2. Adding Builder Processor
 
 To add a convenience method to PromptBuilder:
 

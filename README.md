@@ -1,4 +1,4 @@
-# Generative AI Prompt extensions
+# Generative AI Prompt Processor
 
 A flexible, composable library for constructing and transforming LLM prompts with a fluent interface.
 
@@ -20,7 +20,7 @@ code .
 
 ## Overview
 
-Generative AI Prompt extensions helps you build complex prompts with:
+Generative AI Prompt Processor helps you build complex prompts with:
 
 - Chain-of-thought reasoning instructions
 - Variable substitution
@@ -210,7 +210,7 @@ print(prompt.metadata)  # Contains processed_at
 
 ## Contributing
 
-We welcome contributions to improve Generative AI Prompt extensions! See [CONTRIBUTING.md](https://github.com/descoped/aipp/blob/master/CONTRIBUTING.md) for detailed information on:
+We welcome contributions to improve Generative AI Prompt Processor! See [CONTRIBUTING.md](https://github.com/descoped/aipp/blob/master/CONTRIBUTING.md) for detailed information on:
 
 - Architecture overview
 - Core concepts
