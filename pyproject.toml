@@ -5,8 +5,12 @@ description = "Generativ AI Prompt Processor"
 authors = [
     { name = "Ove Ranheim", email = "oranheim@gmail.com" }
 ]
-readme = "README.md"
 requires-python = ">=3.11"
+readme = "README.md"
+homepage = "https://github.com/descoped/aipp"
+repository = "https://github.com/descoped/aipp"
+keywords = ["ai", "llm", "prompt", "processor"]
+
 dependencies = [
     "pydantic>=2.10.6",
 ]
