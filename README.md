@@ -210,7 +210,7 @@ print(prompt.metadata)  # Contains processed_at
 
 ## Contributing
 
-We welcome contributions to improve Generative AI Prompt extensions! See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed information on:
+We welcome contributions to improve Generative AI Prompt extensions! See [CONTRIBUTING.md](https://github.com/descoped/aipp/blob/master/CONTRIBUTING.md) for detailed information on:
 
 - Architecture overview
 - Core concepts
