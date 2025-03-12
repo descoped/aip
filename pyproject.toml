@@ -17,13 +17,17 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "pydantic>=2.10.6",
 ]
 
 [dependency-groups]
-test = [
+dev = [
     "pytest>=8.3.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "tests"]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
 
 [build-system]
 requires = ["hatchling>=1.26.3"]
@@ -31,6 +35,22 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 include = ["src"]
+
+[tool.hatch.build]
+exclude = [
+  "docs/*",
+  "examples/*",
+  "tests/*",
+  ".github/*",
+  "*.gif",
+  "*.png",
+  "dist/*",
+  "build/*",
+  ".pytest_cache",
+  ".ruff_cache",
+  "__pycache__",
+  "*.pyc"
+]
 
 [project.urls]
 Homepage = "https://github.com/descoped/aipp"
@@ -46,8 +66,3 @@ publish-url = "https://upload.pypi.org/legacy/"
 name = "testpypi"
 url = "https://test.pypi.org/simple/"
 publish-url = "https://test.pypi.org/legacy/"
-
-[tool.pytest.ini_options]
-pythonpath = ["src", "tests"]
-testpaths = ["tests"]
-python_files = ["test_*.py"]

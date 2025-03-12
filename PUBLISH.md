@@ -21,7 +21,7 @@ publish-url = "https://test.pypi.org/legacy/"
 **Interactive authentication (recommended):**
 When publishing, uv will prompt for credentials if not provided:
 ```bash
-# You'll be prompted for password/token
+uv sync
 uv publish --index testpypi --token your-token
 ```
 

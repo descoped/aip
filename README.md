@@ -13,7 +13,7 @@ pip install aipp
 ```
 uv venv
 source .venv/bin/activate
-uv sync --group e
+uv sync --group dev
 pytest -s
 code .
 ```
